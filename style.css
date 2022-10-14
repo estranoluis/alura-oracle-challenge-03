@@ -169,6 +169,11 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 16px;
+} 
+
+.skill:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 
 .skill-icon {
@@ -205,6 +210,11 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     padding: 16px;
+}
+
+.hobbie:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
 }
 
 .hobbie-icon {
@@ -345,6 +355,18 @@ body {
     cursor: pointer;
 }
 
+.btn-repo:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.btn-repo:active{
+    background: #42e56e;
+    border: 1px solid #42e56e;
+    transition: all .2s ease-in-out;
+    color: #fff;
+}
+
 .btn-demo {
     width: 116px;
     height: 51px;
@@ -354,6 +376,18 @@ body {
     border: 1px solid #2a7ae4;
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
+}
+
+.btn-demo:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.btn-demo:active{
+    background: #42e56e;
+    border: 1px solid #42e56e;
+    transition: all .2s ease-in-out;
+    color: #fff;
 }
 
 /* CONTACT SECTION */
@@ -497,6 +531,18 @@ body {
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+.contact-btn:active{
+    background: #42e56e;
+    border: 1px solid #42e56e;
+    transition: all .2s ease-in-out;
+    color: #fff;
 }
 
 .error {
